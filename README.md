@@ -1,6 +1,5 @@
 ##  Spring Cloud使用的各种示例
-  - 学习目的： 旨在以非常低的成本（技术或者硬件）搭建一套高效、分布式、容错的平台.
-
+\/** 学习目的： 旨在以非常低的成本（技术或者硬件）搭建一套高效、分布式、容错的平台.**/
 - [Spring-Cloud-Eureka](https://github.com/t-hong/SpringCloud-Example/tree/master/Spring-Cloud-Eureka)  Eureka服务注册中心的搭建
   * Eureka 注册中心实例.
       >  1、Eureka Server
