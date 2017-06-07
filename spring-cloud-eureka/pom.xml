@@ -12,9 +12,9 @@
     <artifactId>eureka</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>Eureka-Server</module>
-        <module>Service-Provider</module>
-        <module>Service-Consumer</module>
+        <module>eureka-server</module>
+        <module>service-provider</module>
+        <module>service-consumer</module>
     </modules>
 
     <properties>
