@@ -1,7 +1,7 @@
 package com.hong;
 
+import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.cloud.config.server.EnableConfigServer;
 
 /**
@@ -11,9 +11,9 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 /* 启动类添加@EnableConfigServer，激活对配置中心的支持 */
 @EnableConfigServer
 @SpringBootApplication
-public class Applicatin {
+public class Application {
 
     public static void main(String[] args) {
-        new SpringApplicationBuilder(Applicatin.class).web(true).run(args);
+        SpringApplication.run(Application.class,args);
     }
 }
