@@ -12,13 +12,5 @@
     <artifactId>config-client</artifactId>
 
 
-    <dependencies>
-        <!-- 配置中心依赖. -->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-config-server</artifactId>
-            <version>1.3.0.RELEASE</version>
-        </dependency>
-    </dependencies>
 
 </project>
