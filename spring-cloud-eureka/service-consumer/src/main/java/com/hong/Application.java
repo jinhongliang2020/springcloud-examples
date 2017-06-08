@@ -10,9 +10,9 @@ import org.springframework.cloud.netflix.feign.EnableFeignClients;
  * Created by hong on 2017/6/5.
  */
 @SpringBootApplication
-/* 启用服务注册与发现 */
+/** 启用服务注册与发现 **/
 @EnableDiscoveryClient
-/* 启用feign进行远程调用 */
+/** 启用feign进行远程调用 **/
 @EnableFeignClients
 public class Application {
 
