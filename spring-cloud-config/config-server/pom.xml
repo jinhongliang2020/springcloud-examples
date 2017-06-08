@@ -11,4 +11,13 @@
 
     <artifactId>config-server</artifactId>
 
+    <dependencies>
+
+        <!--配置中心Server端依赖.-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-config-server</artifactId>
+            <version>1.3.0.RELEASE</version>
+        </dependency>
+    </dependencies>
 </project>
