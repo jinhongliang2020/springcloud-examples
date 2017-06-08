@@ -16,8 +16,7 @@
       > 在消费端 service consumer 处理,提供熔断时的回调处理
 
 - [spring-cloud-config](https://github.com/t-hong/springcloud-examples/tree/master/spring-cloud-config)  Config 配置中心实例
-  * Spring Cloud Config 配置中心实例
-      * Spring cloud使用git或svn存放配置文件，默认情况下使用git，我们先以git为例做一套示例。
+  * Spring Cloud Config 配置中心实例 (git)
       > 1、config server 
            server提供配置文件的存储、以接口的形式将配置文件的内容提供出去
            
